@@ -6,7 +6,6 @@ const RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 const token = process.env.SLACK_TOKEN || '';
 const isPhone = require('is-phone');
 
-
 const rtm = new RtmClient(token, {
   logLevel: 'error',
   // logLevel: 'debug',
