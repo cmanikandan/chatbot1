@@ -1,0 +1,15 @@
+{
+  "name": "manibot",
+  "version": "1.0.0",
+  "description": "my first bot",
+  "main": "form.js",
+  "dependencies": {
+    "is-phone": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": ". ./.token && node form.js"
+  },
+  "author": "mani c",
+  "license": "MIT"
+}
